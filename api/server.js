@@ -13,8 +13,8 @@ server.use(helmet())
 
 server.use(
   session({
-    name: 'monkey',
-    secret: process.env.SESSION_SECRET || 'keep it secret, keep it safe',
+    name: 'chocolatechip',
+    secret: process.env.SESSION_SECRET || '5f1bc20a-5c69-11ec-bf63-0242ac130002',
     cookie: {
       maxAge: 1000 * 60 * 60,
       secure: false,
