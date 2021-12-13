@@ -24,7 +24,7 @@ server.use(
     saveUninitialized: false,
     rolling: true,
     store: new Store({
-      knex: require('../database/db-config'),
+      knex: require('../data/db-config'),
       tablename: 'sessions',
       sidfieldname: 'sid',
       createtable: true,
